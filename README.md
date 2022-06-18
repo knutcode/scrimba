@@ -1,11 +1,11 @@
 Module 3
 
-[counter](https://knutcode.github.io/kodehode/counter/)
+[counter](https://knutcode.github.io/scrimba/counter/)
 
-[Blackjack](https://knutcode.github.io/kodehode/blackjack/)
+[Blackjack](https://knutcode.github.io/scrimba/blackjack/)
 
-[Unit converter (Module 3 Solo Project)](https://knutcode.github.io/kodehode/unit-converter/)
+[Unit converter (Module 3 Solo Project)](https://knutcode.github.io/scrimba/unit-converter/)
 
-[Password generator (Module 3 Solo Project)](https://knutcode.github.io/kodehode/password-generator/)
+[Password generator (Module 3 Solo Project)](https://knutcode.github.io/scrimba/password-generator/)
 
-[Invoice Creator (Module 3 Solo Project)](https://knutcode.github.io/kodehode/invoice-creator/)
+[Invoice Creator (Module 3 Solo Project)](https://knutcode.github.io/scrimba/invoice-creator/)
