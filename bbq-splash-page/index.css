@@ -1,7 +1,9 @@
 /* font-family: "Source Sans Pro", sans-serif; */
 
 /* similarly to adding a margin 0 on body for all your projects, box-sizing: border-box; should also be used for all projects; */
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
