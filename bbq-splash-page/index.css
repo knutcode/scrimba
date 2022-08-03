@@ -1,0 +1,181 @@
+/* font-family: "Source Sans Pro", sans-serif; */
+
+/* similarly to adding a margin 0 on body for all your projects, box-sizing: border-box; should also be used for all projects; */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  color: #404040;
+  text-align: center;
+}
+
+/* typography  */
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
+}
+
+h1 + p {
+  color: #f18119;
+  font-weight: 900;
+  font-size: 1.3125rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.3125rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+h2 + p {
+  font-weight: 900;
+  color: #f18119;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.top-text {
+  font-size: 0.625rem;
+  font-weight: 900;
+  color: #f18119;
+  /* linear-gradient(to left, #FF713B, #FFA51D); */
+  text-transform: uppercase;
+  order: -1;
+  border-top: 5px solid #f18119;
+  margin: 0;
+  padding-top: 2px;
+  border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
+}
+
+.fine-print {
+  font-size: 0.625rem;
+  letter-spacing: 1px;
+}
+
+strong {
+  font-weight: 900;
+}
+
+/* intro section  */
+
+.intro {
+  background-color: #404040;
+  background-image: url(images/ribs.jpg);
+  /* background-image: url(images/ribs.jpg), linear-gradient(45deg, red, blue); */
+  background-blend-mode: multiply;
+  /* background-blend-mode: screen; */
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-position: center;
+  padding: 0 0.5em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 50vh;
+}
+
+/* main content */
+
+.main-content {
+  padding: 2em 1em;
+}
+
+.intro > *,
+.main-content > * {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* forms */
+
+.email-collector {
+  width: 80%;
+  max-width: 300px;
+}
+
+input,
+.btn {
+  width: 100%;
+  border-radius: 7px;
+}
+
+input {
+  font-family: inherit;
+  text-align: inherit;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  border: 1px solid #404040;
+  transition: transform 0.25s;
+}
+
+input:focus {
+  transform: scale(1.1);
+}
+
+.btn {
+  display: inline-block;
+  padding: 1em 1.5em;
+  font-family: inherit;
+  font-size: 0.625rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: linear-gradient(to left, #ff713b, #ffa51d);
+  color: white;
+  transition: transform 0.25s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  transform: scale(1.1);
+}
+
+/* media query */
+
+@media (min-width: 500px) {
+  body {
+    font-size: 1.125rem;
+    display: flex;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2,
+  h1 + p {
+    font-size: 1.75rem;
+  }
+
+  /* small {
+    font-size: 0.625rem;
+  } */
+
+  .intro,
+  .main-content {
+    width: 50%;
+    min-height: 100vh;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+}
