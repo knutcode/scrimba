@@ -12,4 +12,4 @@ scrimba projects
 
 [BBQ Splash Page (Module 6)](https://knutcode.github.io/scrimba/bbq-splash-page/)
 
-[Digital Business Card (Module 12 React Solo Project)](https://knutcode.github.io/scrimba/digital-business-card/)
+[Digital Business Card (Module 12 React Solo Project)](https://knutcode.github.io/digital-business-card/)
