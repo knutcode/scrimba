@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #23252c;
+}
+
+/* TYPOGRAPHY */
+body {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.main--big-title {
+  font-size: 25px;
+  margin: 21px 0 2px 0;
+}
+
+.main--title {
+  color: #f5f5f5;
+  font-size: 16px;
+}
+
+.main--paragraph,
+.main--small {
+  color: #dcdcdc;
+  font-size: 10.24px;
+}
+
+.main--title,
+.main--paragraph {
+  line-height: 150%;
+  text-align: left;
+  margin: 0;
+}
+
+.main--paragraph {
+  padding-bottom: 1rem;
+}
+
+.main--subheader {
+  color: #f3bf99;
+  font-size: 12.8px;
+  line-height: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.main--small {
+  margin-bottom: 17px;
+}
+
+.main--btn {
+  color: #374151;
+  font-family: inherit;
+  font-size: 14px;
+  /* line-height: 16px; */
+  font-weight: 500;
+}
+
+.btn--blue {
+  color: white;
+}
+
+.fa-envelope,
+.fa-linkedin {
+  padding-right: 8.5px;
+}
+
+.fa-envelope {
+  color: #1e1f26;
+  font-size: 12px;
+}
+
+.fa-linkedin {
+  font-size: 16px;
+}
+
+/* MAIN */
+
+.app--container {
+  background-color: #1a1b21;
+  border-radius: 10px;
+  width: 317px;
+  margin: 15px auto;
+}
+
+.about--container,
+.main--content-container {
+  padding: 0 35px;
+}
+
+.about--container {
+  padding-bottom: 25px;
+}
+
+.main--big-image {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.main--btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.main--btn {
+  width: 115px;
+  padding: 0.6em 0;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  transition: 0.25s;
+}
+
+.main--btn:hover,
+.main--btn:active {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.btn--blue {
+  background-color: #5093e2;
+  border: 1px solid #5093e2;
+}
+
+footer {
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 73px;
+}
+
+.footer--icon {
+  width: 25px;
+  transition: 0.2s;
+}
+
+.footer--icon:hover,
+.footer--icon:active {
+  filter: brightness(2);
+  cursor: pointer;
+  transform: scale(1.2);
+}
