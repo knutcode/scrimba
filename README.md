@@ -1,4 +1,4 @@
-scrimba projects
+Collection of 'vanilla' scrimba projects
 
 [counter](https://knutcode.github.io/scrimba/counter/)
 
